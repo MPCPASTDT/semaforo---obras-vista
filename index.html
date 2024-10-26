@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semáforo à vista!- Index.html </title>
+<style>
+    h2{   color: rgb(65, 21, 6);
+        font-family: verdana;
+        font-size: 300%
+    }
+body {
+  background-image: url('Imagens/obras.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+    
+<center><h2>Alerta! - Obras à vista </h2></center>
+
+<center><br><img id="myImage" src="Imagens/desligado.png" style="width:100px"></center>
+ 
+ 
+<center><br><button onclick="document.getElementById('myImage').src='Imagens/desligado.png'">Desliga o semáforo</button>
+ 
+<button onclick="document.getElementById('myImage').src='Imagens/red.png'">Pare/Luz Vermelha</button>
+ 
+<button onclick="document.getElementById('myImage').src='Imagens/yellow.png'">Atenção/Luz Amarela</button>
+ 
+<button onclick="document.getElementById('myImage').src='Imagens/green.png'">Prossiga/Luz Verde</button></center>
+ 
+
+ 
+</body>
+</html>
+ 
